@@ -1,0 +1,67 @@
+#chessBoard {
+  padding: 50px;
+  position: relative;
+}
+
+.firstBlack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.firstWhite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.white {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 1px solid tomato;
+}
+
+.black {
+  height: 50px;
+  width: 50px;
+  background-color: black;
+  border: 1px solid tomato;
+}
+
+.numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  left: 25px;
+}
+
+.number {
+  margin-top: 15px;
+  margin-left: 45px;
+}
+
+.leters {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 25px;
+}
+
+.leter {
+  margin-left: 15px;
+  margin-top: 38px;
+}
+/*# sourceMappingURL=stile.css.map */
