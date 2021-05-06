@@ -1,0 +1,51 @@
+#chessBoard {
+    padding: 50px;
+    position: relative;
+}
+
+.firstBlack {
+    display: flex;
+}
+
+.firstWhite {
+    display: flex;
+}
+
+.white {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1px solid tomato;
+}
+
+.black {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 1px solid tomato;
+}
+
+.numbers {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 25px;
+}
+
+.number {
+    margin-top: 15px;
+    margin-left: 45px;
+}
+
+.leters {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 25px;
+}
+
+.leter {
+    margin-left: 15px;
+    margin-top: 38px;
+}
